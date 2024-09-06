@@ -1,0 +1,42 @@
+.Parrent{
+    display: flex;
+    width: 100%;
+    content: space-between;
+    align-items: center;
+}
+.CirclesContainer{
+    margin-left: 5%;
+   
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    display: flex;
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.CirclesContainer :first-child{
+    border-radius: 50%;
+}
+
+.text{
+    margin: 0 0 0 8rem ;
+     
+    
+    
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    
+    border-radius: 5px; 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 10px; 
+    text-align: center; 
+}
+.text :only-child{
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem;
+    
+    text-align: left;
+}
